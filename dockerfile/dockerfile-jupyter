@@ -1,0 +1,4 @@
+FROM jupyter/base-notebook
+RUN pip install Flask==1.0.2 requests line-bot-sdk PyMYSQL jieba pandas pymysql
+
+
